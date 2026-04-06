@@ -39,7 +39,7 @@ const Index = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-[#0B0F12] text-white">
+    <div className="min-h-screen bg-[#020203] text-white">
       {/* Hero Section */}
       <div className="relative min-h-screen">
         {/* Background Image with Overlay */}
@@ -56,8 +56,7 @@ const Index = () => {
         <nav className="relative z-10 flex items-center justify-between p-6">
           {/* Logo */}
           <div className="flex items-center gap-2 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
-            <Icon name="Compass" className="w-5 h-5" />
-            <span className="font-medium text-balance">Туристический портал округа</span>
+            <span className="text-[#FFDB18] font-bold text-lg tracking-widest uppercase">Семёнов</span>
           </div>
 
           {/* Navigation Links */}
@@ -87,11 +86,12 @@ const Index = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-6 text-balance">Откройте наш округ.</h1>
+          <h1 className="text-6xl md:text-8xl font-bold tracking-tight mb-4 text-balance text-[#FFDB18]">Семёнов</h1>
+          <p className="text-lg md:text-xl text-[#E7AE6D] mb-8 tracking-wide">Город, где дерево становится золотом</p>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-white/90 max-w-4xl mb-12 leading-relaxed text-pretty">
-            Богатая история, живописная природа, уютные места для отдыха и яркие события — всё, что нужно для незабываемого путешествия.
+            Родина хохломской росписи, богатая история и живая народная культура — всё о туризме Семёновского округа в одном месте.
           </p>
 
           {/* CTA Buttons */}
@@ -378,12 +378,12 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
               {/* Brand Section */}
               <div className="lg:col-span-2">
-                <div className="flex items-center gap-2 mb-6">
-                  <Icon name="Compass" className="w-6 h-6" />
-                  <span className="text-xl font-semibold">Туристический портал округа</span>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-2xl font-bold tracking-widest uppercase text-[#FFDB18]">Семёнов</span>
                 </div>
-                <p className="text-white/80 leading-relaxed text-pretty">
-                  Официальный туристический портал. Здесь собрано всё о нашем округе: история, достопримечательности, музеи, события, рестораны и размещение.
+                <p className="text-[#E7AE6D] text-sm mb-4 tracking-wide">Город, где дерево становится золотом</p>
+                <p className="text-white/70 leading-relaxed text-pretty text-sm">
+                  Официальный туристический портал Семёновского округа. История, хохломской промысел, достопримечательности, музеи, события и размещение.
                 </p>
               </div>
 
@@ -456,7 +456,7 @@ const Index = () => {
                   backgroundSize: "auto 100%",
                 }}
               />
-              <p className="text-white/60 text-sm text-center">© 2026 Туристический портал округа</p>
+              <p className="text-white/60 text-sm text-center">© 2026 Туристический портал Семёновского округа</p>
             </div>
           </div>
         </div>
