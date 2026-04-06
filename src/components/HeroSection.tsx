@@ -104,7 +104,7 @@ const HeroSection = () => {
         style={{
           backgroundImage: `url(${PATTERN_URL})`,
           backgroundRepeat: "repeat-x",
-          backgroundSize: "auto 100%",
+          backgroundSize: "600px 100%",
         }}
       />
     </>

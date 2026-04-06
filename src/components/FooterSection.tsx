@@ -13,7 +13,7 @@ const FooterSection = () => {
             style={{
               backgroundImage: `url(${PATTERN_URL})`,
               backgroundRepeat: "repeat",
-              backgroundSize: "280px",
+              backgroundSize: "600px",
             }}
           />
           {/* Main Footer Content */}

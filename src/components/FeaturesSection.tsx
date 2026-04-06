@@ -59,7 +59,7 @@ const FeaturesSection = () => {
               style={{
                 backgroundImage: `url(${PATTERN_URL})`,
                 backgroundRepeat: "repeat",
-                backgroundSize: "320px",
+                backgroundSize: "600px",
               }}
             />
             {/* Section Header */}
