@@ -41,7 +41,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-[#020203] text-white">
       {/* Hero Section */}
-      <div className="relative min-h-screen">
+      <div className="relative min-h-screen overflow-hidden">
         {/* Background Image with Overlay */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -51,6 +51,22 @@ const Index = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/85" />
         </div>
+
+        {/* Декоративный элемент — листок справа */}
+        <img
+          src="https://cdn.poehali.dev/projects/e1a25dbb-de40-4024-a23b-a8ac5e63fb98/bucket/5989132d-032c-4a3c-9d22-9a25af8aefea.png"
+          alt=""
+          aria-hidden="true"
+          className="absolute -right-16 top-1/2 -translate-y-1/2 w-[420px] opacity-20 pointer-events-none select-none z-10"
+          style={{ filter: "hue-rotate(0deg) saturate(1.2)" }}
+        />
+        {/* Декоративный элемент — листок слева */}
+        <img
+          src="https://cdn.poehali.dev/projects/e1a25dbb-de40-4024-a23b-a8ac5e63fb98/bucket/5989132d-032c-4a3c-9d22-9a25af8aefea.png"
+          alt=""
+          aria-hidden="true"
+          className="absolute -left-24 bottom-24 w-[340px] opacity-15 pointer-events-none select-none z-10 rotate-180"
+        />
 
         {/* Navigation */}
         <nav className="relative z-10 flex items-center justify-between p-6">
