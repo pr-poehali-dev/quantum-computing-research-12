@@ -46,10 +46,10 @@ const Index = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url(https://cdn.poehali.dev/projects/e1a25dbb-de40-4024-a23b-a8ac5e63fb98/files/c2e01f0f-6cb7-4f8d-966d-327987ea1395.jpg)",
+            backgroundImage: "url(https://cdn.poehali.dev/projects/e1a25dbb-de40-4024-a23b-a8ac5e63fb98/bucket/34749f53-eab3-480c-a0d1-a7653880f528.jpg)",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/80" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/85" />
         </div>
 
         {/* Navigation */}
@@ -115,6 +115,16 @@ const Index = () => {
           </div>
         </div>
       </div>
+
+      {/* Brand Pattern Divider */}
+      <div
+        className="w-full h-24 opacity-20"
+        style={{
+          backgroundImage: "url(https://cdn.poehali.dev/projects/e1a25dbb-de40-4024-a23b-a8ac5e63fb98/bucket/5989132d-032c-4a3c-9d22-9a25af8aefea.png)",
+          backgroundRepeat: "repeat-x",
+          backgroundSize: "auto 100%",
+        }}
+      />
 
       {/* Features Section */}
       <section className="relative z-10 py-24 px-6">
@@ -437,7 +447,15 @@ const Index = () => {
             </div>
 
             {/* Sub-footer */}
-            <div className="border-t border-white/10 pt-8">
+            <div className="border-t border-white/10 pt-8 flex flex-col items-center gap-4">
+              <div
+                className="w-full h-12 opacity-15 rounded-lg"
+                style={{
+                  backgroundImage: "url(https://cdn.poehali.dev/projects/e1a25dbb-de40-4024-a23b-a8ac5e63fb98/bucket/5989132d-032c-4a3c-9d22-9a25af8aefea.png)",
+                  backgroundRepeat: "repeat-x",
+                  backgroundSize: "auto 100%",
+                }}
+              />
               <p className="text-white/60 text-sm text-center">© 2026 Туристический портал округа</p>
             </div>
           </div>
