@@ -75,7 +75,7 @@ const Index = () => {
 
           {/* Action Button */}
           <div className="flex items-center gap-3">
-            <Button className="bg-white text-black hover:bg-white/90 rounded-full px-6">Планировать поездку</Button>
+            <Button className="bg-[#E8491F] text-white hover:bg-[#E8491F]/90 rounded-full px-6">Планировать поездку</Button>
           </div>
         </nav>
 
@@ -96,13 +96,13 @@ const Index = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
-            <Button size="lg" className="bg-white text-black hover:bg-white/90 rounded-full px-8 py-4 text-lg">
+            <Button size="lg" className="bg-[#E8491F] text-white hover:bg-[#E8491F]/90 rounded-full px-8 py-4 text-lg">
               Что посмотреть
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="bg-black/40 ring-1 ring-white/20 backdrop-blur border-0 text-white hover:bg-black/50 rounded-full px-8 py-4 text-lg"
+              className="bg-[#FFDB18]/20 ring-1 ring-[#FFDB18]/60 backdrop-blur border-0 text-[#FFDB18] hover:bg-[#FFDB18]/30 rounded-full px-8 py-4 text-lg"
             >
               События и мероприятия
             </Button>
@@ -131,36 +131,36 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
             {/* История */}
-            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
-                <BookOpen className="w-6 h-6" />
+            <div className="rounded-2xl bg-black/20 ring-1 ring-[#E8491F]/40 backdrop-blur p-8 text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-[#E8491F]/20 ring-1 ring-[#E8491F]/50 mb-6">
+                <BookOpen className="w-6 h-6 text-[#E8491F]" />
               </div>
               <h3 className="text-xl font-semibold mb-4">История города</h3>
               <p className="text-white/80 leading-relaxed">Многовековое прошлое, архитектурные памятники и судьбы людей, формировавших округ.</p>
             </div>
 
             {/* Питание */}
-            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
-                <UtensilsCrossed className="w-6 h-6" />
+            <div className="rounded-2xl bg-black/20 ring-1 ring-[#FFDB18]/40 backdrop-blur p-8 text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-[#FFDB18]/20 ring-1 ring-[#FFDB18]/50 mb-6">
+                <UtensilsCrossed className="w-6 h-6 text-[#FFDB18]" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Рестораны и кафе</h3>
               <p className="text-white/80 leading-relaxed">Лучшие точки питания — от традиционной кухни до современных ресторанов.</p>
             </div>
 
             {/* Размещение */}
-            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
-                <BedDouble className="w-6 h-6" />
+            <div className="rounded-2xl bg-black/20 ring-1 ring-[#E8491F]/40 backdrop-blur p-8 text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-[#E8491F]/20 ring-1 ring-[#E8491F]/50 mb-6">
+                <BedDouble className="w-6 h-6 text-[#E8491F]" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Где остановиться</h3>
               <p className="text-white/80 leading-relaxed">Гостиницы, гостевые дома и загородные усадьбы на любой бюджет.</p>
             </div>
 
             {/* Музеи и объекты */}
-            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
-                <Landmark className="w-6 h-6" />
+            <div className="rounded-2xl bg-black/20 ring-1 ring-[#FFDB18]/40 backdrop-blur p-8 text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-[#FFDB18]/20 ring-1 ring-[#FFDB18]/50 mb-6">
+                <Landmark className="w-6 h-6 text-[#FFDB18]" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Музеи и объекты</h3>
               <p className="text-white/80 leading-relaxed">Туристические объекты показа, музеи и культурные пространства округа.</p>
@@ -186,7 +186,7 @@ const Index = () => {
               {/* Step 1 */}
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 h-80 flex flex-col">
                 <div className="flex-1">
-                  <div className="text-3xl font-bold text-white/60 mb-4">01.</div>
+                  <div className="text-3xl font-bold text-[#E8491F] mb-4">01.</div>
                   <h3 className="text-xl font-semibold mb-4">История и культура</h3>
                   <p className="text-white/80 leading-relaxed text-sm">
                     Погрузитесь в историю округа: старинные летописи, архитектурные памятники и рассказы о людях, основавших эти земли.
@@ -197,7 +197,7 @@ const Index = () => {
               {/* Step 2 */}
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 h-80 flex flex-col">
                 <div className="flex-1">
-                  <div className="text-3xl font-bold text-white/60 mb-4">02.</div>
+                  <div className="text-3xl font-bold text-[#FFDB18] mb-4">02.</div>
                   <h3 className="text-xl font-semibold mb-4">Туристические объекты</h3>
                   <p className="text-white/80 leading-relaxed text-sm">
                     Посетите ключевые достопримечательности и объекты показа: храмы, усадьбы, природные заповедники и смотровые площадки.
@@ -208,7 +208,7 @@ const Index = () => {
               {/* Step 3 */}
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 h-80 flex flex-col">
                 <div className="flex-1">
-                  <div className="text-3xl font-bold text-white/60 mb-4">03.</div>
+                  <div className="text-3xl font-bold text-[#E8491F] mb-4">03.</div>
                   <h3 className="text-xl font-semibold mb-4">Местная кухня</h3>
                   <p className="text-white/80 leading-relaxed text-sm">
                     Откройте для себя блюда региональной кухни в лучших ресторанах и кафе округа — от фермерских завтраков до вечерних ужинов.
@@ -219,7 +219,7 @@ const Index = () => {
               {/* Step 4 */}
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-8 h-80 flex flex-col">
                 <div className="flex-1">
-                  <div className="text-3xl font-bold text-white/60 mb-4">04.</div>
+                  <div className="text-3xl font-bold text-[#FFDB18] mb-4">04.</div>
                   <h3 className="text-xl font-semibold mb-4">События и праздники</h3>
                   <p className="text-white/80 leading-relaxed text-sm">
                     Планируйте визит вместе с событийным календарём: фестивали, ярмарки, концерты и народные гуляния круглый год.
@@ -232,7 +232,7 @@ const Index = () => {
             <div className="text-center">
               <Button
                 size="lg"
-                className="bg-white text-black hover:bg-white/90 rounded-full px-12 py-4 text-lg font-semibold"
+                className="bg-[#E8491F] text-white hover:bg-[#E8491F]/90 rounded-full px-12 py-4 text-lg font-semibold"
               >
                 Посмотреть все объекты
               </Button>
@@ -359,7 +359,7 @@ const Index = () => {
                       <p className="text-gray-600">Информация и помощь туристам</p>
                     </div>
                   </div>
-                  <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-lg flex items-center justify-center gap-2">
+                  <Button className="w-full bg-[#E8491F] text-white hover:bg-[#E8491F]/90 rounded-lg flex items-center justify-center gap-2">
                     <Mail className="w-4 h-4" />
                     Написать нам
                   </Button>
@@ -441,7 +441,7 @@ const Index = () => {
                     placeholder="Введите ваш email"
                     className="flex-1 px-4 py-3 rounded-lg bg-white/5 ring-1 ring-white/20 backdrop-blur border-0 text-white placeholder:text-white/50 focus:ring-2 focus:ring-white/30 focus:outline-none"
                   />
-                  <Button className="bg-white text-black hover:bg-white/90 rounded-lg px-6 h-[50px]">Подписаться</Button>
+                  <Button className="bg-[#E8491F] text-white hover:bg-[#E8491F]/90 rounded-lg px-6 h-[50px]">Подписаться</Button>
                 </div>
               </div>
             </div>
