@@ -172,7 +172,16 @@ const Index = () => {
       {/* Journey Section — "Как исследовать округ" */}
       <section className="relative z-10 py-24 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="rounded-3xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-12">
+          <div className="rounded-3xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-12 relative overflow-hidden">
+            {/* Хохломской паттерн — декоративный фон */}
+            <div
+              className="absolute inset-0 opacity-[0.07] pointer-events-none"
+              style={{
+                backgroundImage: "url(https://cdn.poehali.dev/projects/e1a25dbb-de40-4024-a23b-a8ac5e63fb98/bucket/5989132d-032c-4a3c-9d22-9a25af8aefea.png)",
+                backgroundRepeat: "repeat",
+                backgroundSize: "320px",
+              }}
+            />
             {/* Section Header */}
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-balance">Как исследовать округ</h2>
@@ -373,7 +382,16 @@ const Index = () => {
       {/* Footer */}
       <footer className="relative z-10 py-24 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="rounded-3xl bg-white/[0.03] backdrop-blur-2xl ring-1 ring-white/10 p-12">
+          <div className="rounded-3xl bg-white/[0.03] backdrop-blur-2xl ring-1 ring-white/10 p-12 relative overflow-hidden">
+            {/* Хохломской паттерн — декоративный фон футера */}
+            <div
+              className="absolute inset-0 opacity-[0.05] pointer-events-none"
+              style={{
+                backgroundImage: "url(https://cdn.poehali.dev/projects/e1a25dbb-de40-4024-a23b-a8ac5e63fb98/bucket/5989132d-032c-4a3c-9d22-9a25af8aefea.png)",
+                backgroundRepeat: "repeat",
+                backgroundSize: "280px",
+              }}
+            />
             {/* Main Footer Content */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
               {/* Brand Section */}
